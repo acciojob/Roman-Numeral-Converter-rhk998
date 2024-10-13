@@ -31,8 +31,8 @@ function convertToRoman(num) {
 
     for (let [roman, value] of romanNumerals) {
         while (num >= value) {
-            result += roman; // Append the Roman numeral
-            num -= value; // Decrease the number by the corresponding value
+            result += roman; 
+            num -= value; 
         }
     }
 
